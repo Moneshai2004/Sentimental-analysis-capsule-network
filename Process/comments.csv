@@ -1,0 +1,31 @@
+body,Sentiment
+"This video is amazing! I learned so much.",Positive
+"I didn't find this helpful at all. The explanation was too vague.",Negative
+"Great tutorial! Very clear and easy to follow.",Positive
+"Could have been better, but still decent.",Neutral
+"Absolutely terrible, I wouldn't recommend it.",Negative
+"Informative content, but the pacing was too slow.",Neutral
+"Fantastic! I will definitely share this with my friends.",Positive
+"Not bad, but I expected more details.",Neutral
+"I loved the visuals in this video, they were very engaging!",Positive
+"The speaker could have been more enthusiastic.",Neutral
+"Superb explanation! Cleared up all my doubts.",Positive
+"This was a waste of time, too much irrelevant information.",Negative
+"Decent, but the background music was too distracting.",Neutral
+"I really enjoyed this video, the editing was top-notch!",Positive
+"Meh, I've seen better tutorials on the same topic.",Neutral
+"Very insightful! I feel like I finally understand the concept.",Positive
+"I struggled to keep up with the pace, too fast for beginners.",Neutral
+"Outstanding work! Will recommend it to my team.",Positive
+"This video is all over the place, not structured well.",Negative
+"So boring, I couldn't finish watching it.",Negative
+"Good content, but the quality of the audio could be better.",Neutral
+"Loved it! The examples were spot on and easy to understand.",Positive
+"The speaker was monotone, hard to stay focused.",Negative
+"This is exactly what I needed, thank you!",Positive
+"The video feels rushed, not enough attention to details.",Negative
+"Helpful, but some points were oversimplified.",Neutral
+"Great job! I learned new techniques I hadn't seen before.",Positive
+"This tutorial is way too basic for advanced users.",Negative
+"The visuals were stunning, but the explanation was weak.",Negative
+"I appreciate the effort, but this could use more depth.",Neutral

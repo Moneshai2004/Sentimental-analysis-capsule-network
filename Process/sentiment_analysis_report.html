@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Sentiment Analysis Output</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-5">
+      <h1 class="text-3xl font-bold mb-5 text-center text-blue-600">
+        Sentiment Analysis Output
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">This video is amazing! I learned so much.</p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-green-500 font-semibold">Positive</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.95</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Positive', 'score': 0.9}, 
+'delivery': {'sentiment': 'Positive', 'score': 0.95}, 
+'engagement': {'sentiment': 'Positive', 'score': 0.85}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">
+            I didn't find this helpful at all. The explanation was too vague.
+          </p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-red-500 font-semibold">Negative</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">-0.75</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'clarity': {'sentiment': 'Negative', 'score': 0.2}, 
+'helpfulness': {'sentiment': 'Negative', 'score': 0.3}, 
+'engagement': {'sentiment': 'Neutral', 'score': 0.5}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">
+            Great tutorial! Very clear and easy to follow.
+          </p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-green-500 font-semibold">Positive</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.85</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Positive', 'score': 0.9}, 
+'clarity': {'sentiment': 'Positive', 'score': 0.95}, 
+'engagement': {'sentiment': 'Positive', 'score': 0.85}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">Could have been better, but still decent.</p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-yellow-500 font-semibold">Neutral</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.5</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Neutral', 'score': 0.5}, 
+'clarity': {'sentiment': 'Neutral', 'score': 0.5}, 
+'engagement': {'sentiment': 'Neutral', 'score': 0.5}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">
+            Absolutely terrible, I wouldn't recommend it.
+          </p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-red-500 font-semibold">Negative</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">-0.9</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'clarity': {'sentiment': 'Negative', 'score': 0.1}, 
+'helpfulness': {'sentiment': 'Negative', 'score': 0.2}, 
+'engagement': {'sentiment': 'Neutral', 'score': 0.5}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">
+            Informative content, but the pacing was too slow.
+          </p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-yellow-500 font-semibold">Neutral</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.5</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Neutral', 'score': 0.5}, 
+'pacing': {'sentiment': 'Neutral', 'score': 0.5}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">
+            Fantastic! I will definitely share this with my friends.
+          </p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-green-500 font-semibold">Positive</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.95</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Positive', 'score': 0.9}, 
+'delivery': {'sentiment': 'Positive', 'score': 0.95}, 
+'engagement': {'sentiment': 'Positive', 'score': 0.85}}
+          </pre>
+        </div>
+
+        <div
+          class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+        >
+          <h2 class="font-semibold text-lg">Input Text:</h2>
+          <p class="text-gray-700">Not bad, but I expected more details.</p>
+          <h2 class="font-semibold mt-2">Predicted Sentiment:</h2>
+          <p class="text-yellow-500 font-semibold">Neutral</p>
+          <h2 class="font-semibold mt-2">Score:</h2>
+          <p class="text-gray-600">0.5</p>
+          <h2 class="font-semibold mt-2">Aspects:</h2>
+          <pre class="bg-gray-200 p-2 rounded whitespace-pre-wrap break-words">
+{'content': {'sentiment': 'Neutral', 'score': 0.5}, 
+'clarity': {'sentiment': 'Neutral', 'score': 0.5}}
+          </pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
